@@ -28,7 +28,7 @@ const Header = () => {
     return <div>Error loading content: {error.message}</div>;
   }
 
-  // Display loading until both hero and image data are fetched
+  // Display loading until data are fetched
   if (!hero) {
     return <div>Loading...</div>;
   }
